@@ -38,9 +38,7 @@ jobs:
 
       - name: Configurar o GitHub Pages
         uses: actions/configure-pages@v5
-        with:
-          enablement: true
-
+        
       - name: Enviar os arquivos estáticos
         uses: actions/upload-pages-artifact@v3
         with:
